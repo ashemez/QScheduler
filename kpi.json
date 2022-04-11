@@ -1,0 +1,22 @@
+[
+  {
+    "name": "critical_ticket_count",
+    "type": "JSON_FILE",
+    "cron": "0 0 3 ? * * *",
+    "isRunning": 1,
+    "lastRan": "2022-04-01 01:00:00",
+    "kpiDescription": "Open critical ticket count",
+    "lastMeasuredValue": "7",
+    "filename": "kpi_measured.json"
+  },
+  {
+    "name": "failed_customer_api_call",
+    "type": "JSON_FILE",
+    "cron": "0 0 2 ? * * *",
+    "isRunning": 0,
+    "lastRan": "2022-04-01 02:00:00",
+    "kpiDescription": "Last 24-Hour failed API call count",
+    "lastMeasuredValue": "23",
+    "filename": "kpi_measured.json"
+  }
+]

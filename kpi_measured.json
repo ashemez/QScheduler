@@ -1,0 +1,10 @@
+[
+  {
+    "name": "critical_ticket_count",
+    "value": "7"
+  },
+  {
+    "name": "failed_customer_api_call",
+    "value": "23"
+  }
+]
